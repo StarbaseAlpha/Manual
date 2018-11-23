@@ -48,6 +48,14 @@ Starbase Alpha is a collection of software written in JavaScript for Node.js and
 
 
 
+## STARBASE ENCRYPTION
+
+### Starbase Encryption Manual - Coming soon
+
+- AES-GCM Encryption with HMAC signing and PBKDF2 password stretching
+
+
+
 ## STARBASE REFERENCE APP
 
 ### Starbase Reference App Manual - Coming soon
