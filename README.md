@@ -59,6 +59,11 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Browser and Node.js solutions
 
 
+### [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
+
+- All the Starbase Libraries in a single package
+
+
 ### Starbase Reference App Manual - Coming soon
 
 - Starbase Developer Full-Stack Reference Application
