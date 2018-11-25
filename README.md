@@ -16,9 +16,10 @@ Starbase Alpha is a collection of software written in JavaScript for Node.js and
 
 ## STARBASE CHANNELS
 
-### Starbase Channels Manual - Coming soon
+### [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 
 - Database Channels
+- Unix-like database path structure
 - Channels Client API
 
 
