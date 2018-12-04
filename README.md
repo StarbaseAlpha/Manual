@@ -2,9 +2,23 @@
 
 Starbase is a collection of software written in JavaScript for Node.js and the Web. The components are small, simple to use APIs and libraries for storing, managing and transmitting data between the server and the browser client. The project serves as a platform for prototyping and building progressive web applications with secure, offline-first funtionality.
 
+
 ## Manuals
 
-### [Starbase Database Manual](https://github.com/StarbaseAlpha/Database)
+- [Starbase Database Manual](#Database)
+- [Starbase Channels Manual](#Channels)
+- [Starbase Rules Engine Manual](#TheRules)
+- [Starbase Socket Manual](#Socket)
+- [Starbase Defacto Manual](#Defacto)
+- [Starbase Encryption Manual](#Encryption)
+- [Starbase Authentication Manual](#Auth)
+- [Starbase User Profiles Manual](#Profiles)
+- [Starbase Libraries Manual](#Starbase)
+- [Starbase App Manual](#App)
+
+
+<a name="Database"></a>
+### [Starbase Database Manual](https://github.com/Starbase/Database)
 
 Starbase Database is a key-value data store for storing, accessing, and transferring data in modern, progressive web applications. Starbase Database is powerful, portable, lightweight and fast. With an easy to use API, the database removes the complications involved with underlining storage mechanisms.
 
@@ -14,6 +28,7 @@ Starbase Database is a key-value data store for storing, accessing, and transfer
  - Import/Export Functionality
 
 
+<a name="Channels"></a>
 ### [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 
 Starbase Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
@@ -24,14 +39,16 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Channels Client API Library
 
 
-### Starbase Rules Engine Manual - Coming soon
+<a name="TheRules"></a>
+### [Starbase Rules Engine Manual](https://github.com/StarbaseAlpha/TheRules)
 
 - The Rules Engine
 - Build APIs based on request paths
 - Uses rules to control access to resources
 
 
-### Starbase Socket Manual - Coming soon
+<a name="Socket"></a>
+### [Starbase Socket Manual](https://github.com/StarbaseAlpha/Socket)
 
 - WebSocket Node.js Server
 - WebSocket Web Client
@@ -40,7 +57,8 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Realtime communication between the browser and server
 
 
-### Starbase Defacto Server Manual - Coming soon
+<a name="Defacto"></a>
+### [Starbase Defacto Server Manual](https://github.com/StarbaseAlpha/Defacto)
 
 - Defacto Node.js Express Web Server
 - Includes helmet and compression middleware
@@ -49,6 +67,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Optional CORS support
 
 
+<a name="Encryption"></a>
 ### [Starbase Encryption Manual](https://github.com/StarbaseAlpha/Encryption)
 
 Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and PBKDF2 password stretching in the browser and in nodeJS. The web version uses the browser's built-in Web Crypto library. The node-webcrypto-ossl package is used server-side in NodeJS.
@@ -59,11 +78,29 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Browser and Node.js solutions
 
 
+<a name="Auth"></a>
+### [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
+
+- Starbase Authentication
+- Built for node.js and the web
+- Server and client API
+
+
+<a name="Profiles"></a>
+### [Starbase Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
+
+- Starbase User Profiles
+- Built with Starbase Channels and Authentication
+- Server and client API
+
+
+<a name="Starbase"></a>
 ### [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 
 - All the Starbase Libraries in a single package
 
 
+<a name="App"></a>
 ### Starbase Reference App Manual - Coming soon
 
 - Starbase Developer Full-Stack Reference Application
