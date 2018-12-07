@@ -27,6 +27,7 @@ Starbase Database is a key-value data store for storing, accessing, and transfer
  - LevelDB NodeJS Database
  - In-Memory memstore
  - Import/Export Functionality
+<br>
 
 
 <a name="Channels"></a>
@@ -38,6 +39,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Unix-like database path structure
 - Documents with sub-documents
 - Channels Client API Library
+<br>
 
 
 <a name="TheRules"></a>
@@ -46,6 +48,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - The Rules Engine
 - Build APIs based on request paths
 - Uses rules to control access to resources
+<br>
 
 
 <a name="Socket"></a>
@@ -56,6 +59,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Simple API for exchanging JSON data
 - Handles ping/pong and reconnect on disconnect
 - Realtime communication between the browser and server
+<br>
 
 
 <a name="Defacto"></a>
@@ -66,6 +70,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - Optional JSON body parser and limiter
 - Optional static path for public files
 - Optional CORS support
+<br>
 
 
 <a name="Encryption"></a>
@@ -77,6 +82,7 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - HMAC signatures
 - PBKDF2 password stretching
 - Browser and Node.js solutions
+<br>
 
 
 <a name="PWA"></a>
@@ -85,6 +91,7 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Simple Progresive Web App integration
 - Install and Update functionality
 - Service Worker and offline-first support
+<br>
 
 
 <a name="Auth"></a>
@@ -93,6 +100,7 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Starbase Authentication
 - Built for node.js and the web
 - Server and client API
+<br>
 
 
 <a name="Admin"></a>
@@ -101,6 +109,7 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Starbase Database Administration
 - Custom rules and options
 - Server and client API
+<br>
 
 
 <a name="Profiles"></a>
@@ -109,12 +118,14 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Starbase User Profiles
 - Built with Starbase Channels and Authentication
 - Server and client API
+<br>
 
 
 <a name="Starbase"></a>
 ### [Starbase Libraries Manual](https://github.com/StarbaseAlpha/Starbase)
 
 - All the Starbase Libraries in a single package
+<br>
 
 
 <a name="App"></a>
@@ -124,6 +135,7 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Server-side Channels API with Rules Engine integration
 - Client-side Offline-first Channels database
 - Server/Client Sync
+<br>
 
 
 ## ADDITIONAL INFORMATION
