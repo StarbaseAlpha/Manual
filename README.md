@@ -11,7 +11,9 @@ Starbase is a collection of software written in JavaScript for Node.js and the W
 - [Starbase Socket Manual](#Socket)
 - [Starbase Defacto Manual](#Defacto)
 - [Starbase Encryption Manual](#Encryption)
+- [Starbase Progressive Web App Manual](#PWA)
 - [Starbase Authentication Manual](#Auth)
+- [Starbase Database Admin Manual](#Admin)
 - [Starbase User Profiles Manual](#Profiles)
 - [Starbase Libraries Manual](#Starbase)
 - [Starbase App Manual](#App)
@@ -78,6 +80,14 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Browser and Node.js solutions
 
 
+<a name="PWA"></a>
+### [Starbase Progressive Web App Manual](https://github.com/StarbaseAlpha/PWA)
+
+- Simple Progresive Web App integration
+- Install and Update functionality
+- Service Worker and offline-first support
+
+
 <a name="Auth"></a>
 ### [Starbase Authentication Manual](https://github.com/StarbaseAlpha/Auth)
 
@@ -86,8 +96,16 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Server and client API
 
 
+<a name="Admin"></a>
+### [Starbase Database Admin Manual](https://github.com/StarbaseAlpha/Admin)
+
+- Starbase Database Administration
+- Custom rules and options
+- Server and client API
+
+
 <a name="Profiles"></a>
-### [Starbase Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
+### [Starbase User Profiles Manual](https://github.com/StarbaseAlpha/Profiles)
 
 - Starbase User Profiles
 - Built with Starbase Channels and Authentication
