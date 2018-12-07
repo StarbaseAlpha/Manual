@@ -138,7 +138,5 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 <br>
 
 
-## ADDITIONAL INFORMATION
-
-### Author
+## Author
 Hello, my name is Mike. I'm happy that you are taking an interest in my work.
