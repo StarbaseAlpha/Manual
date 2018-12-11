@@ -3,10 +3,11 @@
 Starbase is a collection of software written in JavaScript for Node.js and the Web. The components are small, simple to use APIs and libraries for storing, managing and transmitting data between the server and the browser client. The project serves as a platform for prototyping and building progressive web applications with secure, offline-first funtionality.
 
 - [Starbase Database Manual](#Database)
-- [Starbase Channels Manual](#Channels)
+- [Starbase Database Channels Manual](#Channels)
+- [Starbase Channels Client Manual](#Client)
 - [Starbase Rules Engine Manual](#TheRules)
 - [Starbase Socket Manual](#Socket)
-- [Starbase Defacto Manual](#Defacto)
+- [Starbase Defacto Web Server Manual](#Defacto)
 - [Starbase Encryption Manual](#Encryption)
 - [Starbase Progressive Web App Manual](#PWA)
 - [Starbase Authentication Manual](#Auth)
@@ -31,14 +32,23 @@ Starbase Database is a key-value data store for storing, accessing, and transfer
 
 
 <a name="Channels"></a>
-### [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
+### [Starbase Database Channels Manual](https://github.com/StarbaseAlpha/Channels)
 
-Starbase Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
+Starbase Database Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
 
 - Database Channels
 - Unix-like database path structure
 - Documents with sub-documents
 - Channels Client API Library
+<br>
+
+<a name="Client"></a>
+### [Starbase Channels Client Manual](https://github.com/StarbaseAlpha/Client)
+
+- Client for accessing remote Database Channels
+- Client API Library for Node.js and the Web
+- Integrates with Starbase Auth for token support
+- Interfaces with Starbase Rules Engine
 <br>
 
 
@@ -63,7 +73,7 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 
 
 <a name="Defacto"></a>
-### [Starbase Defacto Server Manual](https://github.com/StarbaseAlpha/Defacto)
+### [Starbase Defacto Web Server Manual](https://github.com/StarbaseAlpha/Defacto)
 
 - Defacto Node.js Express Web Server
 - Includes helmet and compression middleware
