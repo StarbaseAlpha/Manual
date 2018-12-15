@@ -4,6 +4,7 @@ Starbase is a collection of software written in JavaScript for Node.js and the W
 
 - [Starbase Database Manual](#Database)
 - [Starbase Database Channels Manual](#Channels)
+- [Starbase Channels Server Manual](#Server)
 - [Starbase Channels Client Manual](#Client)
 - [Starbase Rules Engine Manual](#TheRules)
 - [Starbase Socket Manual](#Socket)
@@ -49,6 +50,15 @@ Starbase Database Channels adds a unix-like directory structure to the Starbase 
 - Client API Library for Node.js and the Web
 - Integrates with Starbase Auth for token support
 - Interfaces with Starbase Rules Engine
+<br>
+
+
+<a name="Server"></a>
+### [Starbase Channels Server Manual](https://github.com/StarbaseAlpha/Server)
+
+- Express web server built for Starbase Apps
+- Built with Starbase Defacto Web Server
+- Supports APIs built with Starbase Rules Engine
 <br>
 
 
