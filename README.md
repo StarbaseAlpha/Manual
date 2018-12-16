@@ -35,7 +35,7 @@ Starbase Database is a key-value data store for storing, accessing, and transfer
 <a name="Channels"></a>
 ### [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 
-Starbase Database Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
+Starbase Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
 
 - Database Channels
 - Unix-like database path structure
