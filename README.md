@@ -3,7 +3,7 @@
 Starbase is a collection of software written in JavaScript for Node.js and the Web. The components are small, simple to use APIs and libraries for storing, managing and transmitting data between the server and the browser client. The project serves as a platform for prototyping and building progressive web applications with secure, offline-first funtionality.
 
 - [Starbase Database Manual](#Database)
-- [Starbase Database Channels Manual](#Channels)
+- [Starbase Channels Manual](#Channels)
 - [Starbase Channels Server Manual](#Server)
 - [Starbase Channels Client Manual](#Client)
 - [Starbase Rules Engine Manual](#TheRules)
@@ -33,7 +33,7 @@ Starbase Database is a key-value data store for storing, accessing, and transfer
 
 
 <a name="Channels"></a>
-### [Starbase Database Channels Manual](https://github.com/StarbaseAlpha/Channels)
+### [Starbase Channels Manual](https://github.com/StarbaseAlpha/Channels)
 
 Starbase Database Channels adds a unix-like directory structure to the Starbase Database and handles the creation and removal of parent and child documents based on channel paths. This allows for documents (channels) with sub-documents, which in turn can have child documents of their own. Channels is great for building APIs based on a path structure.
 
