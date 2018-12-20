@@ -1,6 +1,6 @@
 # Starbase Alpha Software Manual
 
-Starbase Alpha is a collection of software written in JavaScript for Node.js and the Web. The components are small, simple to use APIs and libraries for storing, managing and transmitting data between the server and the browser client. The project serves as a platform for prototyping and building progressive web applications with secure, offline-first funtionality.
+Starbase Alpha is a collection of software written in JavaScript for Node.js and the Web. The components are small, simple to use APIs and libraries for storing, managing and transmitting data between the server and the browser client. The project serves as a platform for building microservices and progressive web applications with secure, offline-first funtionality.
 
 - [Starbase Database Manual](#Database)
 - [Starbase Channels Manual](#Channels)
