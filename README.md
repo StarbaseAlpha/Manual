@@ -7,6 +7,7 @@ Starbase Alpha is a collection of software written in JavaScript for Node.js and
 - [Starbase Channels Server Manual](#Server)
 - [Starbase Channels Client Manual](#Client)
 - [Starbase Rules Engine Manual](#TheRules)
+- [Starbase Services Manual](#Services)
 - [Starbase Socket Manual](#Socket)
 - [Starbase Defacto Web Server Manual](#Defacto)
 - [Starbase Encryption Manual](#Encryption)
@@ -14,6 +15,7 @@ Starbase Alpha is a collection of software written in JavaScript for Node.js and
 - [Starbase Authentication Manual](#Auth)
 - [Starbase Database Admin Manual](#Admin)
 - [Starbase User Profiles Manual](#Profiles)
+- [Starbase Functions Manual](#Functions)
 - [Starbase Libraries Manual](#Starbase)
 - [Starbase Reference App Manual](#App)
 
@@ -68,6 +70,16 @@ Starbase Channels adds a unix-like directory structure to the Starbase Database 
 - The Rules Engine
 - Build APIs based on request paths
 - Uses rules to control access to resources
+<br>
+
+
+<a name="Services"></a>
+### [Starbase Services Manual](https://github.com/StarbaseAlpha/Services)
+
+- Starbase Services
+- Platform Services for building Starbase apps
+- Support for Starbase Database and Starbase Starfire
+- Server and Serverless (FaaS) Configurations
 <br>
 
 
@@ -138,6 +150,16 @@ Starbase Encryption provides 256-bit AES-GCM encryption with HMAC signatures and
 - Starbase User Profiles
 - Built with Starbase Channels and Authentication
 - Server and client API
+<br>
+
+
+<a name="Functions"></a>
+### [Starbase Functions Manual](https://github.com/StarbaseAlpha/Functions)
+
+- Starbase Functions
+- Isolated JavaScript Virtual Machines
+- Build APIs with untrusted code
+- Experimental!
 <br>
 
 
